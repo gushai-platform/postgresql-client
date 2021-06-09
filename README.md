@@ -1,3 +1,5 @@
+[![Docker Pulls](https://img.shields.io/docker/pulls/gushcloud/postgresql-client?style=for-the-badge)](https://hub.docker.com/r/gushcloud/postgresql-client)
+
 # postgresql-client
 Postgresql client for init containers in Kubernetes
 
