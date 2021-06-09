@@ -1,7 +1,14 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/gushcloud/postgresql-client?style=for-the-badge)](https://hub.docker.com/r/gushcloud/postgresql-client)
+![GitHub Workflow Status (event)](https://img.shields.io/github/workflow/status/gushai-platform/postgresql-client/CI-build?label=Github%20Actions%20Build&style=for-the-badge)
 
 # postgresql-client
-Postgresql client for init containers in Kubernetes
+Postgresql client for init containers in Kubernetes<br />
+<br />
+Dockerhub: https://hub.docker.com/r/gushcloud/postgresql-client
+```shell
+docker pull gushcloud/postgresql-client:latest
+```
+<br />
 
 # Kubernetes wait for a database to be ready with init containers
 In Kubernetes, if your app depends on a database, it is a good idea to check that the database is ready before spinning up the application. This can be done using init containers which fires off before containers start to run. The init containers need to complete before containers can start. This is particularly important when there is an upgrade or a node change in Kubernetes where services can spin up faster than the database. <br /><br />
