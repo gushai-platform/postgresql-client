@@ -6,7 +6,7 @@ on:
       - release
 
 jobs:
-  test_and_build:
+  build:
     runs-on: ubuntu-20.04
     env:
       REGISTRY: gushcloud/
