@@ -1,7 +1,7 @@
 # postgresql-client
 Postgresql client for init containers in Kubernetes
 
-# Wait for a database to be ready with init containers
+# Kubernetes wait for a database to be ready with init containers
 In Kubernetes, if your app depends on a database, it is a good idea to check that the database is ready before spinning up the application. This can be done using init containers which fires off before containers start to run. The init containers need to complete before containers can start. This is particularly important when there is an upgrade or a node change in Kubernetes where services can spin up faster than the database. <br /><br />
 
 # Example deployment yaml
